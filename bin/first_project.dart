@@ -46,4 +46,12 @@ void main() {
     print(hight);
   }*/
   ///////////////////////////////////
+
+  String name = "IBRAHIM";
+  int age = 33, hight = 185;
+  if (name == "IBRAHIM" || age == 33 || hight == 185) {
+    print('Name: $name \nAge: $age \nHight: $hight');
+  } else {
+    print("else");
+  }
 }
