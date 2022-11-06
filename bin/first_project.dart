@@ -26,4 +26,22 @@ void main() {
     String e = "hguit is wrog";
     print(e);
   }
+  /*String x = "IBRAHIM";
+  int y = 33;
+  double z = 184.5;
+
+  if (x == "IBRAHIM") {
+    print('$x $y $z');
+  } else {}
+  ;
+   String name = "IBRAHIM";
+  int age = 33, hight = 185;
+
+  if (name == "IBRAHIM") {
+    print(name);
+  } else if (age == 33) {
+    print(age);
+  } else if (hight == 185) {
+    print(hight);
+  }*/
 }
