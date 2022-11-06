@@ -2,7 +2,7 @@ import 'package:first_project/first_project.dart' as first_project;
 
 void main() {
   //First Code
-  var x = "IBRAHIM";
+  /*var x = "IBRAHIM";
   if (x == "IBRAHIM") {
     String y = "Name : IBRAHIM ";
     print(y);
@@ -25,7 +25,8 @@ void main() {
   } else {
     String e = "hguit is wrog";
     print(e);
-  }
+  }*/
+  //////////////////////////////////////
   /*String x = "IBRAHIM";
   int y = 33;
   double z = 184.5;
@@ -44,4 +45,5 @@ void main() {
   } else if (hight == 185) {
     print(hight);
   }*/
+  ///////////////////////////////////
 }
