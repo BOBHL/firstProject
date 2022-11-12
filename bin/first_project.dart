@@ -46,7 +46,7 @@ void main() {
     print(hight);
   }*/
   ///////////////////////////////////
-
+/*
   String name = "IBRAHIM";
   int age = 33, hight = 185;
   if (name == "IBRAHIM" || age == 33 || hight == 185) {
@@ -54,4 +54,6 @@ void main() {
   } else {
     print("else");
   }
+}
+*/
 }
