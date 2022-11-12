@@ -1,6 +1,6 @@
 import 'package:first_project/first_project.dart' as first_project;
 
-void main() {
+void main() {}
   //First Code
   /*var x = "IBRAHIM";
   if (x == "IBRAHIM") {
@@ -65,4 +65,4 @@ int x=0;
   else if (x==0){print('The number is Zero');}
   else {print ("The number is Positive");}
 }*/
-}
+
