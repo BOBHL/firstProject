@@ -56,4 +56,13 @@ void main() {
   }
 }
 */
+/*void main() {
+int number=4;
+  if(number >= 0) {print ("The number is Positive");}
+  else {print ("The number is negative");}
+int x=0;
+  if(x < 0) {print ("The number is Negative");}
+  else if (x==0){print('The number is Zero');}
+  else {print ("The number is Positive");}
+}*/
 }
