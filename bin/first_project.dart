@@ -1,7 +1,16 @@
-import 'package:first_project/first_project.dart' as first_project;
+import 'dart:io';
 
-void main() {}
-
+main() {
+  for (int i = 1; i <= 5; i++) {
+    for (int j = 1; j <= 5; j++) {
+      if (i >= j)
+        stdout.write("*");
+      else
+        stdout.write(" ");
+    }
+    print(" ");
+  }
+}
 
 
 
