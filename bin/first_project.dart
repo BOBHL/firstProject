@@ -1,16 +1,20 @@
-import 'dart:io';
-
 main() {
-  for (int i = 1; i <= 5; i++) {
-    for (int j = 1; j <= 5; j++) {
-      if (i >= j)
-        stdout.write("*");
-      else
-        stdout.write(" ");
-    }
-    print(" ");
+  var x = [5, 10, 15, 20, 25];
+  x.add(30);
+  x.removeAt(1);
+  print(x);
+  x.remove(3);
+  print(x);
+  x[3] = 50;
+  print(x);
+  for (int i = 0; i < x.length - 1; i++) {
+    print(x[i]);
   }
 }
+//
+//import 'dart:io';
+
+/////
 
 
 
@@ -43,14 +47,12 @@ main() {
   /*String x = "IBRAHIM";
   int y = 33;
   double z = 184.5;
-
   if (x == "IBRAHIM") {
     print('$x $y $z');
   } else {}
   ;
    String name = "IBRAHIM";
   int age = 33, hight = 185;
-
   if (name == "IBRAHIM") {
     print(name);
   } else if (age == 33) {
@@ -78,4 +80,4 @@ int x=0;
   else if (x==0){print('The number is Zero');}
   else {print ("The number is Positive");}
 }*/
-
+//
