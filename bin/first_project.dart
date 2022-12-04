@@ -1,16 +1,51 @@
-main() {
-  var x = [5, 10, 15, 20, 25];
-  x.add(30);
-  x.removeAt(1);
-  print(x);
-  x.remove(3);
-  print(x);
-  x[3] = 50;
-  print(x);
-  for (int i = 0; i < x.length - 1; i++) {
-    print(x[i]);
+/*void main() {
+  var x1 = 0;
+  var x3 = 0;
+  var x4 = 0;
+  List<int> L1 = [1, 10, 15, 20, 25];
+  var x2 = 0;
+  List<int> L2 = [];
+  List<int> L3 = [];
+
+  for (int i = 0; i < L1.length; i++) {
+    if (L1[i].isEven) {
+      L2.add(L1[i]);
+      
+      if (L2[x3] > x1) {
+        x1 = L1[x3];
+        x3++;
+      }
+    } else {
+      L3.add(L1[i]);
+      
+      if (L3[x4] > x2) {
+        x2 = L3[x4];
+        x4++;
+      }
+    }
   }
+  print(L1);
+  print(L2);
+  print(L3);
+  print(x1);
+  print(x2);
 }
+*/
+
+
+//main() {
+  //var x = [5, 10, 15, 20, 25];
+  //x.add(30);
+  //x.removeAt(1);
+  //print(x);
+  //x.remove(3);
+  //print(x);
+  //x[3] = 50;
+  //print(x);
+  //for (int i = 0; i < x.length - 1; i++) {
+    //print(x[i]);
+  //}
+//}
 //
 //import 'dart:io';
 
